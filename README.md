@@ -1,7 +1,7 @@
 # akamai-sdk-go
 ## Documentation
 
-You can find detailed documentation and usage examples for the `akamai-sdk-go` library on [GoDoc](https://pkg.go.dev/github.com/FRIS-Solutions-Vault/akamai-sdk-go). --COMING SOON--
+You can find detailed documentation and usage examples for the `akamai-sdk-go` library on [GoDoc](https://pkg.go.dev/github.com/FRIS-Solutions-Vault/akamai-sdk-go).
 
 ## Installation
 
