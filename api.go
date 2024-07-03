@@ -21,7 +21,7 @@ type SensorInput struct {
 
 // GenerateSensorData returns the sensor data required to generate valid akamai cookies using the FRIS Solutions API.
 func (s *Session) GenerateSensorData(ctx context.Context, input *SensorInput) (string, error) {
-	const sensorEndpoint = "https://api.frisapi.dev/akamai/sensor"
+	const sensorEndpoint = "https://newapi.frisapi.dev/akamai/sensor"
 	input.ApiKey = s.apiKey
 	return s.sendRequest(ctx, sensorEndpoint, input)
 }
@@ -36,7 +36,7 @@ type PixelInput struct {
 
 // GeneratePixelData returns the pixel data using the FRIS Solutions API.
 func (s *Session) GeneratePixelData(ctx context.Context, input *PixelInput) (string, error) {
-	const pixelEndpoint = "https://api.frisapi.dev/akamai/pixel"
+	const pixelEndpoint = "https://newapi.frisapi.dev/akamai/pixel"
 	input.ApiKey = s.apiKey
 	return s.sendRequest(ctx, pixelEndpoint, input)
 }
